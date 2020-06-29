@@ -1,0 +1,9 @@
+dependencies:
+- name: postgresql
+  repository: https://kubernetes-charts.storage.googleapis.com/
+  version: 1.0.0
+- name: alfresco-infrastructure
+  repository: https://kubernetes-charts.alfresco.com/stable
+  version: 4.1.1
+digest: sha256:6c3e70c8190b9fd6a8cda9d280dd060ba01d5532d970f7bdb6032bb624866b9a
+generated: "2020-06-05T12:23:55.575179946Z"
