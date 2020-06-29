@@ -4,9 +4,9 @@ appVersion: 3.1.5
 name: podinfo
 engine: gotpl
 description: Podinfo Helm chart for Kubernetes
-home: https://github.com/stefanprodan/podinfo
+home: https://github.com/camorra-skk/podinfo
 maintainers:
-- email: stefanprodan@users.noreply.github.com
-  name: stefanprodan
+- email: camorra-skk@users.noreply.github.com
+  name: camorra-skk
 sources:
-- https://github.com/stefanprodan/podinfo
+- https://github.com/camorra-skk/podinfo
