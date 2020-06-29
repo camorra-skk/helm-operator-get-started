@@ -16,7 +16,7 @@ spec:
   values:
     image:
       repository: camorraskk/podinfo
-      tag: dev-hdtwcel9
+      tag: dev-slajuvyi
     replicaCount: 1
     hpa:
       enabled: false
