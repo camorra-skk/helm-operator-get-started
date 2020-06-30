@@ -16,7 +16,7 @@ spec:
   values:
     image:
       repository: camorraskk/acs-store-selector
-      tag: dev-gbefeaqm
+      tag: dev-wyxsbnw2
     replicaCount: 1
     hpa:
       enabled: false
