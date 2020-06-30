@@ -2,13 +2,13 @@
 apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
-  name: podinfo-dev
+  name: alfresco-process-services-dev
   namespace: dev
   annotations:
     fluxcd.io/automated: "true"
     filter.fluxcd.io/chart-image: glob:dev-*
 spec:
-  releaseName: podinfo-dev
+  releaseName: alfresco-process-services
   chart:
     git: git@github.com:camorra-skk/helm-operator-get-started
     path: charts/alfresco-process-services
@@ -16,7 +16,7 @@ spec:
   values:
     image:
       repository: camorraskk/acs-store-selector
-      tag: dev-gbefeaqm
+      tag: dev-zbfjkcod
     replicaCount: 1
     hpa:
       enabled: false
