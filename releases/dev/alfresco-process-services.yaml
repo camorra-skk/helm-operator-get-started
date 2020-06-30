@@ -6,14 +6,14 @@ metadata:
   namespace: dev
   annotations:
     fluxcd.io/automated: "true"
-    filter.fluxcd.io/chart-image: glob:dev-*
+    fluxcd.io/tag.app: glob:dev-*
 spec:
-  releaseName: alfresco-process-services
+  releaseName: alfresco-process-services-dev
   chart:
     git: git@github.com:camorra-skk/helm-operator-get-started
     path: charts/alfresco-process-services
     ref: master
   values:
-    image:
+    app:
       repository: camorraskk/acs-store-selector
-      tag: dev-wyxsbnw2
+      tag: default-peojtefx
