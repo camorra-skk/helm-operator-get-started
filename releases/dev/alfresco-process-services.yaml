@@ -13,8 +13,8 @@ spec:
     git: git@github.com:camorra-skk/helm-operator-get-started
     path: charts/alfresco-process-services
     ref: master
+    skipDepUpdate: true
   values:
     image:
       repository: camorraskk/acs-store-selector
       tag: dev-gbefeaqm
-      skipDepUpdate: true
