@@ -16,5 +16,5 @@ spec:
   values:
     image:
       repository: camorraskk/acs-store-selector
-      tag: dev-wyxsbnw2
+      tag: dev-eucprho8
 
