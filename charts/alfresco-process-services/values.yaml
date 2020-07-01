@@ -8,7 +8,7 @@ processEngine:
   replicacount: 1
   image:
     repository: camorraskk/acs-store-selector
-    tag: default-nfiiqupb
+    tag: default-peojtefx
     pullPolicy: IfNotPresent
     internalPort: 8080
   service:
