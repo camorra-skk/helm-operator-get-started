@@ -17,7 +17,8 @@ spec:
     secretRef:
       name: git-https-credentials
   values:
-    image:
-      repository: camorraskk/acs-store-selector
-      tag: dev-wyxsbnw2
+    processEngine:
+      image:
+        repository: camorraskk/acs-store-selector
+        tag: dev-wyxsbnw2
 
