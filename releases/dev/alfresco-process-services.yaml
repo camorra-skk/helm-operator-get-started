@@ -8,7 +8,7 @@ metadata:
     fluxcd.io/automated: "true"
     filter.fluxcd.io/chart-image: glob:dev-*
 spec:
-  releaseName: alfresco-process-services
+  releaseName: aps
   chart:
     git: git@github.com:camorra-skk/helm-operator-get-started
     path: charts/alfresco-process-services
@@ -17,6 +17,3 @@ spec:
     image:
       repository: camorraskk/acs-store-selector
       tag: dev-gbefeaqm
-    replicaCount: 1
-    hpa:
-      enabled: false
