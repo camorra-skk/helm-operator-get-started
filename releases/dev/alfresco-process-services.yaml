@@ -18,5 +18,5 @@ spec:
     processEngine:
       image:
         repository: camorraskk/acs-store-selector
-        tag: default-nfiiqupb
+        tag: dev-encpdzpf
 
