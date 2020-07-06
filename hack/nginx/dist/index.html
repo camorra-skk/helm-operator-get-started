@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <base href="./">    <title>Alfresco Accounts Payable Management</title>
+
+    <noscript>
+        <center class="noscript-text-margin">
+          <b>JavaScript is disabled. Please enable to view the application.
+          </b>
+        </center>
+    </noscript>
+    <script>
+        var global = global || window;
+        var Buffer = Buffer || [];
+        var process = process || {
+            env: {
+                DEBUG: undefined
+            },
+            version: []
+        };
+    </script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#1976d2">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="translucent">
+
+    <link rel="icon" type="image/png" href="assets/alfresco_logo.png" sizes="96x96">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="manifest" href="manifest.json">
+
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+        }
+        
+        .noscript-text-margin {
+            margin-top: 10%;
+        }
+        
+        .loader-container {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .loader-item {
+            max-height: 100px;
+            max-width: 300px;
+        }
+        
+        .loader-spinner {
+            max-height: 300px;
+            max-width: 300px;
+        }
+        
+        .loader-text {
+            white-space: nowrap;
+            text-align: center;
+            position: relative;
+        }
+        
+        .circular {
+            animation: rotate 2s linear infinite;
+            height: 100px;
+            position: relative;
+            width: 100px;
+        }
+        
+        .path {
+            stroke-dasharray: 1, 200;
+            stroke-dashoffset: 0;
+            stroke: #B6463A;
+            animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+            stroke-linecap: round;
+        }
+        
+        @keyframes rotate {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        
+        @keyframes dash {
+            0% {
+                stroke-dasharray: 1, 200;
+                stroke-dashoffset: 0;
+            }
+            50% {
+                stroke-dasharray: 89, 200;
+                stroke-dashoffset: -35;
+            }
+            100% {
+                stroke-dasharray: 89, 200;
+                stroke-dashoffset: -124;
+            }
+        }
+        
+        @keyframes color {
+            100%,
+            0% {
+                stroke: #d62d20;
+            }
+            40% {
+                stroke: #0057e7;
+            }
+            66% {
+                stroke: #008744;
+            }
+            80%,
+            90% {
+                stroke: #ffa700;
+            }
+        }
+    </style>
+<link rel="stylesheet" href="styles.c8d34c46f2912e54e9bf.css"></head>
+<!-- 3. Display the application -->
+
+<body class="adf-background-color">
+    <alfresco-app>
+        <div id="loader-container" class="loader-container">
+            <div class="loader-spinner">
+                <svg class="circular">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="5" stroke-miterlimit="10"></circle>
+          </svg>
+            </div>
+            <div class="loader-item">
+                <div id="loader-text" class="loader-text">Loading ..</div>
+            </div>
+        </div>
+    </alfresco-app>
+<script type="text/javascript" src="runtime.db093de14c54bf6b41cb.js"></script><script type="text/javascript" src="polyfills.662e2934314f385ca05a.js"></script><script type="text/javascript" src="scripts.499bc5659bdf597b62c4.js"></script><script type="text/javascript" src="vendor.620dac5b2af96aabc0c7.js"></script><script type="text/javascript" src="main.380f63f4d4872db0aa59.js"></script></body>
+
+</html>

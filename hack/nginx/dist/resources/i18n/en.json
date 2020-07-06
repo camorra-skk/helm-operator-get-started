@@ -1,0 +1,656 @@
+{
+  "ENTITY_MASTER": {
+    "SEARCH_ENTITY_MASTER": "Search Entity Master",
+    "ENTITY_CODE": "Entity Code",
+    "ENTITY_NAME": "Entity Name",
+    "STATUS": "Status",
+    "SELECT_STATUS": "Select Status"
+  },
+  "GROUP_MASTER": {
+    "HEADER": "Group Master",
+    "SEARCH_GROUP_MASTER": "Search Group Master",
+    "STATUS": "Status",
+    "GROUP": "Group",
+    "SELECT_STATUS": "Select Status"
+  },
+  "INVOICE_DETAILS": {
+    "HEADER": "HEADER",
+    "DETAILS": "DETAILS",
+    "BANK_DETAILS": "BANK DETAILS",
+    "THREE_WAY_MATCHING_DETAILS": "THREE WAY MATCHING DETAILS",
+    "TAX_&_FREIGHT": "TAX & FREIGHT",
+    "COMMENTS": "COMMENTS",
+    "DOCUMENTS": "DOCUMENTS",
+    "SUCESSFULLY_SAVED": "Successfully saved",
+    "ERROR_MESSAGE": "Something went wrong. Please try again.",
+    "MESSAGE_TITLE": "Unsaved changes",
+    "MESSAGE": "You have some unsaved changes,do you want to save it?",
+    "PO/GR_DETAILS_ARE_BEING_PULLED": "PO/GR details are being pulled. We will notify you when the operation is over",
+    "PO/GR_DETAILS_HAVE_BEEN_PULLED": "PO/GR details have been pulled successfully",
+    "LINE_DID_NOT_MATCH_CONDITION": "Line should match one of these conditions  (1.Material Code && Rate of Po Line) or (2.Material Description && Rate of Po Line) or (3.Rate of Po Line) . Please select the appropriate line.",
+    "LINE_IS_NOT_MATCHED_WITH_PO": "Line is not matched with PO. Please match that first !",
+    "NO_RECORD_FOUND": "No record found.",
+    "PLEASE_CHOOSE_REQUESTOR_AND_APPROVER_MANUALLY": "Oops! Something went wrong. Please choose requestor and approver manually.",
+    "PO/GR_DETAILS_ARE_UNABLE_TO_PULL": "PO/GR are unable to pull",
+    "NO_CHANGES_DETECTED": "No changes detected",
+    "SOMETHING_WENT_WRONG": "Something went wrong. Please try again.",
+    "SUCCESSFULLY_DELETED": "Successfully Deleted",
+    "LINE_NOT_MATCHED": "Line not matched",
+    "INVOICE_PO_NOT_FOUND": "Invoice Po is missing",
+    "LINE_MATCHED": "Line matched",
+    "SELECT_ALL_LINES": "Apply For All Lines",
+    "TABLE_HEADER": {
+      "INV_LINE_#": "Inv Line #",
+      "PO_LINE_#": "PO Line #",
+      "PO_#": "PO #",
+      "GRN_#": "GRN #",
+      "BUYER": "Buyer",
+      "MATERIAL": "Material",
+      "MATERIAL_DESC": "Material Desc",
+      "QTY": "Qty",
+      "RATE": "Rate",
+      "UOM": "UOM",
+      "DOC_CURRENCY": "Doc. Currency",
+      "LOCAL_CURRENCY": "Local Currency",
+      "GL_CODE": "GL Code",
+      "COST_CENTER": "Cost Center",
+      "TAX_JURISDICTION": "Tax Jurisdiction",
+      "REQUESTOR": "Requestor",
+      "APPROVER": "Approver",
+      "GROSS_VALUE": "Gross Value",
+      "DISCOUNT": "Discount",
+      "DELIVERY_DATE": "Delivery Date",
+      "STATUS": "Status",
+      "TRADING_PART_CODE": "Trading Part Code",
+      "ORDER_ID": "Order ID",
+      "REMARKS": "Remarks",
+      "VALIDATOR_REMARKS": "Validator Remarks",
+      "TAX_CODE": "Tax Code",
+      "CURRENCY": "Currency",
+      "GROSS_AMOUNT": "Gross Amount"
+    },
+    "TABLE_HEADER_PLACEHOLDER": {
+      "ENTER_INV_LINE": "Enter inv line",
+      "ENTER_PO_#": "Enter PO #",
+      "ENTER_MATERIAL": "Enter material",
+      "ENTER_MATERIAL_DESC": "Enter material desc",
+      "ENTER_QTY": "Enter qty",
+      "ENTER_RATE": "Enter rate",
+      "ENTER_CURRENCY": "Enter currency",
+      "ENTER_TAX": "Enter tax",
+      "ENTER_UOM": "Enter UOM",
+      "ENTER_DISCOUNT": "Enter discount",
+      "ENTER_GROSS_VALUE": "Enter gross value",
+      "ENTER_REMARKS": "Enter remarks",
+      "ENTER_TAX_CODE": "Enter tax code",
+      "ENTER_TAX_JURIDICTION": "Enter tax Jurisdiction"
+    }
+  },
+  "INVOICE_DETAILS_LAYOUT": {
+    "TOOLTIP": {
+      "CLICK_TO_EXPAND": "Click to Expand",
+      "CLICK_TO_SHRINK": "Click to Shrink"
+    }
+  },
+  "INVOICE_SUMMARY": {
+    "TITLE": "Invoice Summary",
+    "LABELS": {
+      "INVOICE_NUMBER": "Invoice Number",
+      "PO_NUMBER": "PO Number",
+      "INVOICE_STATUS": "Invoice Status",
+      "VENDOR": "Vendor",
+      "ENTITY_NAME": "Entity Name",
+      "SEARCH": "Search Invoice Summary"
+    }
+  },
+  "UPLOAD": {
+    "INVOICE_UPLOAD": {
+      "TITLE": "Upload Invoice",
+      "LABELS": {
+        "DRAG_LABEL": "DRAG HERE",
+        "NOTIFICATION": "Notification",
+        "YES": "Yes",
+        "NO": "No"
+      },
+      "SUCCESS_MESSAGE": "Your Invoice uploaded Successfully. Do you want to upload more invoices?"
+    },
+    "FILE_UPLOAD": {
+      "BUTTON": {
+        "UPLOAD_FILE": "Select File",
+        "UPLOAD_FOLDER": "Upload folder",
+        "CANCEL_ALL": "Cancell all"
+      },
+      "MESSAGES": {
+        "SINGLE_COMPLETED": "Upload Complete",
+        "COMPLETED": "Uploads Complete",
+        "PROGRESS": "Upload in Progress...",
+        "FOLDER_ALREADY_EXIST": "The folder {0} already exists",
+        "FOLDER_NOT_SUPPORTED": "Folder upload isn't supported by your browser"
+      },
+      "ACTION": {
+        "UNDO": "Undo"
+      }
+    }
+  },
+  "LOGIN": {
+    "LOGO": "Alfresco",
+    "CONTENT_SERVICES": "Content Services",
+    "PROCESS_SERVICES": "Process Services",
+    "CSRF": "CSRF",
+    "BANNED_USERNAME": "Banned username",
+    "LABEL": {
+      "LOGIN": "Login",
+      "USERNAME": "Username",
+      "PASSWORD": "Password",
+      "REMEMBER": "Remember"
+    },
+    "MESSAGES": {
+      "USERNAME_REQUIRED": "Required",
+      "USERNAME_MIN": "Your username needs to be at least {{minLenght}} characters.",
+      "PASSWORD_REQUIRED": "Enter your password to sign in",
+      "LOGIN_ERROR_CREDENTIALS": "You have entered an invalid username or password",
+      "LOGIN_ERROR_PROVIDERS": "Providers cannot be undefined",
+      "LOGIN_SUCCESS": "Login successful",
+      "LOGIN_ERROR_CORS": "CORS exception, check your server configuration",
+      "LOGIN_ERROR_CSRF": "CSRF exception, set [disableCsrf]=\"true\" in alfresco-login component",
+      "LOGIN_ECM_LICENSE": "Content Services repository is in read-only mode"
+    },
+    "BUTTON": {
+      "LOGIN": "SIGN IN",
+      "CHECKING": "CHECKING",
+      "WELCOME": "WELCOME"
+    },
+    "ACTION": {
+      "HELP": "NEED HELP?",
+      "REGISTER": "REGISTER"
+    }
+  },
+  "MENU_CONFIGURATION": {
+    "HEADER": "Menu User Group Entity Master",
+    "SEARCH_MENU_USER_GROUP_ENTITY_MAPPING": "Search User Entity Group Menu",
+    "STATUS": "Status",
+    "SELECT_STATUS": "Select Status",
+    "GROUP": "Group",
+    "ENTITY": "Entity",
+    "USER": "User",
+    "SELECT_USER": "Select User",
+    "MENU": "Menu",
+    "SELECT_MENU": "Select Menu",
+    "SELECT_GROUP": "Select Group",
+    "SELECT_ENTITY": "Select Entity"
+  },
+  "MENU_MASTER": {
+    "HEADER": "Menu Master",
+    "SEARCH_MENU_MASTER": "Search Menu Master",
+    "MENU_NAME": "Menu",
+    "PARENT_MENU": "Parent Menu",
+    "STATUS": "Status",
+    "ROUTE": "Route",
+    "ICON": "Icon",
+    "SELECT_MENU": "Select Menu",
+    "SELECT_STATUS": "Select Status",
+    "ORDER": "Order",
+    "IS_DEFAULT": "Is Default"
+  },
+  "MURAAI_BREADCRUMB": {
+    "REFRESH": "Refresh",
+    "OPEN_PDF": "View Invoice",
+    "CLOSE_PDF": "Close Invoice",
+    "PROCESS_DIGRAM": "View Process Diagram",
+    "CLOSE": "Close",
+    "LOADING": "Loading...",
+    "NOT_FOUND": "Not found",
+    "NO_NAME_FOUND": "No name found",
+    "CONTRACT_DOCUMENT": "Contract Document"
+  },
+  "MURAAI_DATA_TABLE": {
+    "ARE_YOU_SURE_WANT_TO_DELETE": "Are you sure to delete?",
+    "NO_ROWS_SELECTED": "No rows selected",
+    "NO_CONTENT_MESSAGE": "Sorry, no content",
+    "BUTTON_LABEL": {
+      "EDIT": "Edit",
+      "CANCEL": "Close",
+      "DELETE": "Delete",
+      "ADD": "Add",
+      "UPDATEALL": "Update All",
+      "SAVE": "Save/Update"
+    },
+    "HEADER": {
+      "ENTITY_CODE": "Entity Code",
+      "ENTITY_NAME": "Entity Name",
+      "VENDOR_NAME": "Vendor Name",
+      "VENDOR_CODE": "Vendor Code",
+      "INVOICE_NO": "Invoice #",
+      "TYPE": "Type",
+      "BATCH_ID": "Batch Id",
+      "INVOICE_DATE": "Invoice Date",
+      "CURRENCY": "Currency",
+      "MODE": "Mode",
+      "RECEIVED_DATE": "Received Date",
+      "STATUS": "Status",
+      "PO_NO": "PO #",
+      "BUYER": "Buyer",
+      "POSTING_DOC_NO": "Posting Doc No",
+      "POSTING_DATE": "Posting Date",
+      "SCANNED_NO": "Scanned No",
+      "INCO_TERMS": "Inco Terms",
+      "PENDING_WITH": "Pending With",
+      "PROCESSED_BY": "Processed By",
+      "GROSS_INV_AMT": "Gross Inv. Amt",
+      "AGING_BY_RECV_DATE": "Aging By Recv. Date(In Days)",
+      "SLAB": "Slab(In Days)",
+      "AGING_BY_INV_DATE": "Aging By Inv. Date(In Days)"
+    }
+  },
+  "MURAAI_SEARCH": {
+    "BUTTON_LABEL": {
+      "ADVANCE": "Advanced Search"
+    },
+    "NOT_FOUND": "Not found"
+  },
+  "USER_ENTITY": {
+    "SEARCH_ENTITY_MASTER": "Search User Entity Mapping",
+    "USER_NAME": "User Name",
+    "ENTITY_CODE": "Entity Code",
+    "ENTITY_NAME": "Entity Name",
+    "STATUS": "Status",
+    "SELECT_STATUS": "Select Status"
+  },
+  "USER_MASTER": {
+    "SEARCH_USER_MASTER": "Search User Master",
+    "STATUS": "Status",
+    "EMAIL": "Email",
+    "LAST_NAME": "Last Name",
+    "FIRST_NAME": "First Name",
+    "SELECT_STATUS": "Select Status"
+  },
+  "CREATED_DATE": "Created Date",
+  "CREATED_BY": "Created By",
+  "MODIFIED_DATE": "Modified Date",
+  "MODIFIED_BY": "Modified By",
+  "USER_PROFILE": {
+    "MENU": {
+      "SIGN_OUT": "Sign Out",
+      "SELECT_THEME": "Select Theme",
+      "SELECT_LANGUAGE": "Select Language"
+    }
+  },
+  "TAB_DETAILS": {
+    "INVOICE_TITLE": "INVOICE",
+    "COMMENTS_TITLE": "COMMENTS"
+  },
+  "MENU": {
+    "SEARCH": "Search"
+  },
+  "TASK": {
+    "LABELS": {
+      "ASSIGNED_TO": "Assigned To",
+      "DUE_DATE": "Due Date",
+      "RECEIVED_ON": "Received On",
+      "NAME": "Name"
+    }
+  },
+  "MASTER_PROPERTY": {
+    "PROPERTY": "Property",
+    "PROPERTY_TYPE": "Property Type",
+    "SELECT_PROPERTY": "Select Property",
+    "STATUS": "Status",
+    "SELECT_STATUS": "Select Status"
+  },
+  "ACTIVITY_PROPERTY": {
+    "PROCESS_ID": "Process",
+    "ACTIVITY_ID": "Activity",
+    "ORDER": "Order",
+    "SELECT_PROCESS": "Process",
+    "SELECT_ACTIVITY": "Activity",
+    "STATUS": "Status",
+    "SELECT_STATUS": "Select Status",
+    "SUCCESSFULLY_DELETED": "Successfully Deleted",
+    "SUCCESSFULLY_SAVED": "Successfully saved",
+    "ERROR_MESSAGE": "Something went wrong. Please try again.",
+    "ACTIVITI_NAME": "Activity name should start with Invoice Verification By Approver OR Invoice Verification By Requestor",
+    "NO_CHANGE_FOUND": "No Changes Detected",
+    "ACTIVITI_ORDER": "Only Numbers are allowed",
+    "ACTIVITI_ORDER_STATUS": "Order Already Present"
+  },
+  "CONFIGURATION_PROPERTY": {
+    "PROCESS_ID": "Process",
+    "PROPERTY_ID": "Value",
+    "SELECT_GROUP": "Select Group",
+    "SELECT_USER": "Select User",
+    "PARAMETER": "Property",
+    "PROPERTY": "Property",
+    "SELECT_ASSIGNEE": "Select Assignee",
+    "ASSIGNEE_TYPE": "Assignee Type",
+    "SEARCH": "Value",
+    "SELECT_PARAMETER": "Select Parameter",
+    "SELECT_PROCESS": "Process",
+    "SELECT_ACTIVITY": "Activity",
+    "OPERATOR": "Operator",
+    "SELECT_OPERATOR": "Select Operator",
+    "JOIN_CONDITION": "Join Condition",
+    "SELECT_CONDITION": "Select Condition",
+    "ASSIGNEE": "Assignee",
+    "ADD": "Add New Activity",
+    "SUCCESSFULLY_DELETED": "Successfully Deleted",
+    "SUCCESSFULLY_SAVED": "Successfully saved",
+    "ERROR_MESSAGE": "Something went wrong. Please try again.",
+    "NO_CHANGE_FOUND": "No Changes Detected",
+    "JOIN_CONDITION_ERROR": "Join Condition is not same as 1st Join Condition"
+  },
+  "APPLICATION_NAME": {
+    "DESKTOP": "Alfresco Accounts Payable Management",
+    "TABLET": "Accounts Payable Management",
+    "MOBILE": "AP Management"
+  },
+  "EXCEPTION_MASTER": {
+    "VALIDATION_EXCEPTION": {
+      "HEADER": "Validation"
+    },
+    "SUCCESS_RULE_EXCEPTION": {
+      "HEADER": "Rules"
+    },
+    "SELECT_EXCEPTION": "Select Exception",
+    "TABLE": "Table",
+    "LHS_TABLE": "LHS Table",
+    "LHS_COLUMN": "LHS Column",
+    "RHS_TABLE": "RHS Table",
+    "RHS_COLUMN": "RHS Column",
+    "SELECT_TABLE": "Select Table",
+    "OPERATOR": "Operator",
+    "MONO_OPERATOR": "Mono Operator",
+    "SELECT_MONO_OPERATOR": "Select Operator",
+    "ERROR_CODE": "Error Code",
+    "COLUMN": "Table Column",
+    "SELECT_COLUMN": "Select Column",
+    "SELECT_ERROR_CODE": "Select Error Code",
+    "JOIN_CONDITION": "Join Condition",
+    "SELECT_CONDITION": "Select Condition",
+    "IS_NON_PO": "Is Non PO",
+    "SELECT_PO_STATUS": "Select Is Non PO"
+  },
+  "TAX_FREIGHT": {
+    "INOVICE_NO": "Invoice No",
+    "BATCH_ID": "Batch Id",
+    "OPTION": "Option",
+    "DEBIT/CREDIT": "Debit/Credit",
+    "TAX_CODE": "TaxCode",
+    "AMOUNT": "Amount",
+    "GL_CODE": "GL Code",
+    "COST_CENTER": "Cost Center",
+    "EXEMPT": "Exempt",
+    "TEXT": "Text",
+    "SELECT_TAX_OPTION": "Select Tax Option",
+    "SELECT_CARD_OPTION": "Select Card Option",
+    "lOCAL_CURRENCY_AMOUNT": "LocalCurrencyAmount",
+    "SUCCESSFULLY_SAVED": "Successfully Saved",
+    "TAXCODE_AMOUNT_GLCODE_ARE_MANDATORY": "Tax Type , Amount, and GLCode  are mandatory field",
+    "SUCCESSFULLY_DELETED": "Successfully Deleted",
+    "UNSAVED_CHANGES": "Unsaved changes",
+    "UNSAVED_CHANGES_MESSAGE": "You have some unsaved chnages,do you want to save it?",
+    "THERE_IS_NO_CHANGE": "There is no change"
+  },
+  "BANK_DETAILS": {
+    "INVOICE_BANK_DETAIL": {
+      "HEADER": "Invoice Bank Details"
+    },
+    "VENDOR_BANK_DETAIL": {
+      "HEADER": "Vendor Bank Details"
+    },
+    "BANK_NAME": "Bank Name",
+    "BENEFICIARY": "Beneficiary",
+    "ACCOUNT_NO": "Account No",
+    "SWIFT": "Swift",
+    "IBAN": "Iban",
+    "CURRENCY": "Currency"
+  },
+  "BUTTON_LABEL": {
+    "APPROVED": "Approve",
+    "REJECT": "Reject",
+    "SEND_TO_REQUESTOR": "Send to Requestor",
+    "CANCEL_INVOICE": "Cancel Invoice",
+    "SEND_TO BUYER": "Send to Buyer",
+    "POST_TO_ERP": "Post to ERP",
+    "SAVE": "Save",
+    "PULL_PO_GR": "Pull PO/GR"
+  },
+  "STATUS": {
+    "PENDING_FOR_POSTING": "Pending for Posting",
+    "APPROVER_REJECTED": "Approver Rejected",
+    "APPROVER_APPROVED": "Approver Approved",
+    "REQUESTOR_REJECTED": "Requestor Rejected",
+    "BUYER_REJECTED": "Buyer Rejected",
+    "PENDING_WITH_REQUESTOR": "Pending With Requestor",
+    "PENDING_WITH_BUYER": "Pending With Buyer",
+    "INVOICE_CANCELLED": "Invoice Cancelled",
+    "INVOICE_POSTED": "Invoice Posted"
+  },
+  "PROCESSOR_DATA_CONFIRMATION_DIALOG": {
+    "TITLE": "Fill Missing Details",
+    "SELECT_BUYER": "Please select buyer",
+    "SELECT_REQUESTOR_APPROVER": "Please select Requestor and Approver",
+    "SELECT_GLCODE_COSTCENTER":"Please select GL Code and Cost Center"
+  },
+  "USER_DATA_TABLE_HEADER": {
+    "USER_ID": "User ID",
+    "FIRST_NAME": "First Name",
+    "LAST_NAME": "Last Name",
+    "EMAIL_ID": "Email ID"
+  },
+  "ORDER_DATA_TABLE_HEADER": {
+    "ORDER_ID": "Order ID",
+    "ORDER_DESC": "Description"
+  },
+  "PO_LINE_DATA_TABLE_HEADER": {
+    "LINE_NO": "Line NO",
+    "MATERIAL_CODE": "Material Code",
+    "MATERIAL_DESC": "Material Description",
+    "VENDOR_MATERIAL": "Vendor Material",
+    "ORDER_QTY": "Order Qty",
+    "UOM": "UOM",
+    "RATE": "Rate",
+    "CURRENCY": "Currency",
+    "GROSS_AMOUNT": "Gross Amount"
+  },
+  "PO_DETAIL_DATA_TABLE_HEADER": {
+    "PO": "PO #",
+    "PURCHASE_GROUP": "Purchase Group",
+    "PURCHASE": "Purchase",
+    "PLANT": "Plant",
+    "PURCHASE_ORG": "Purchase Org",
+    "CREATED_DATE": "Created Date",
+    "STATUS": "Status",
+    "PAYMENT_TERMS": "Payment Terms",
+    "INCO_TERMS": "Inco Terms"
+  },
+  "GRN_LINE_DATA_TABLE_HEADER": {
+    "GR": "GR #",
+    "DC": "DC #",
+    "MATERIAL_CODE": "Material Code",
+    "MATERIAL_DESC": "Material Desc",
+    "GR_DATE": "GR Date",
+    "RATE": "Rate",
+    "GR_QTY": "GR Qty",
+    "QTY_USED": "Qty Used",
+    "PENDING_GR_QTY": "Pending GR Qty",
+    "AMOUNT": "Amount",
+    "UOM": "UOM"
+  },
+  "VENDOR_DATA_TABLE_HEADER": {
+    "VENDOR_CODE": "Vendor Code",
+    "VENDOR_NAME": "Vendor Name"
+  },
+  "GL_CODE_DATA_TABLE_HEADER": {
+    "GL_CODE": "GL Code",
+    "DESC": "Description"
+  },
+  "COST_CENTER_DATA_TABLE_HEADER": {
+    "COST_CENTER": "Cost Center",
+    "TAX_JURIDICTION": "Tax Juridiction",
+    "DESC": "Description"
+  },
+  "TAX_CODE_DATA_TABLE_HEADER": {
+    "TAX_CODE": "Tax Code",
+    "TAX_DESC": "Tax Description"
+  },
+  "TASK_APPROVAL": {
+    "INVOICE_POSTING": "Invoice Posting",
+    "INVOICE_PENDING_POSTING": "Pending For Posting"
+  },
+  "INVOICE_HEADER_FORM": {
+    "INVOICE_NO_LABEL": "Invoice Number",
+    "INVOICE_NO_PLACEHOLDER": "Enter invoice number",
+    "INVOICE_DATE_LABEL": "Invoice Date",
+    "INVOICE_FROM_DATE": "Enter from date",
+    "INVOICE_TYPE_LABEL": "Invoice Type",
+    "INVOICE_TYPE_PLACEHOLDER": "Select invoice type",
+    "INVOICE_CLASSIFICATION": "Invoice Classification",
+    "VENDOR_CODE": "Vendor Code",
+    "VENDOR_NAME": "Vendor Name",
+    "PO_NO": "PO No",
+    "PAYMENT_TERM": "Payment Terms",
+    "FREIGHT_AMOUNT": "Freight Amount",
+    "TAX_AMOUNT": "Tax Amount",
+    "ENTITY_NAME": "Entity Name",
+    "CURRENCY": "Currency",
+    "INVOICE_CURRENCY": "Select invoice currency",
+    "ENTITY_CODE": "Entity Code",
+    "SUB_TOTAL": "Sub Total",
+    "TOTAL": "Total",
+    "DC_NO": "DC No",
+    "INVOICE_STATUS": "Invoice Status",
+    "SHIPPING_ADDRESS": "Shipping Address",
+    "BILLING_ADDRESS": "Billing Address",
+    "VALIDATION_REMARKS": "Validator Remarks"
+  },
+  "VENDOR_SEARCH": {
+    "VENDOR_CODE": "Vendor Code",
+    "VENDOR_NAME": "Vendor Name",
+    "VENDOR_CODE_PLACEHOLDER": "Enter vendor code",
+    "VENDOR_NAME_PLACEHOLDER": "Enter vendor name"
+  },
+  "PO_HEADER_DETAIL": {
+    "PO": "PO #",
+    "BUYER": "Buyer",
+    "STATUS": "Status",
+    "PO_TYPE": "PO Type",
+    "VENDOR": "Vendor",
+    "TAX_CODE": "Tax Code",
+    "PAYMENT_TERM": "Payment Terms",
+    "PAYMENT_TERM_DESC": "Payment Term Desc"
+  },
+  "GL_CODE_SEARCH": {
+    "GL_CODE": "GL Code",
+    "GL_CODE_PLACEHOLDER": "Enter gl code",
+    "GL_DESC": "Description",
+    "GL_DESC_PLACEHOLDER": "Enter description"
+  },
+  "COST_CENTER_SEARCH": {
+    "COST_CENTER": "CostCenter",
+    "COST_CENTER_PLACEHOLDER": "Enter cost center",
+    "COST_CENTER_DESC": "Description",
+    "COST_CENTER_DESC_PLACEHOLDER": "Enter description"
+  },
+  "USER_SEARCH": {
+    "USER_ID": "User ID",
+    "USER_ID_PLACEHOLDER": "Enter Userid",
+    "FIRST_NAME": "First Name",
+    "FIRST_NAME_PLACEHOLDER": "Enter firstname",
+    "LAST_NAME": "Last Name",
+    "LAST_NAME_PLACEHOLDER": "Enter lastname",
+    "EMAIL_ID": "Email ID",
+    "EMAIL_ID_PLACEHOLDER": "Enter email"
+  },
+  "ORDER_SEARCH": {
+    "ORDER_ID": "Order ID",
+    "ORDER_ID_PLACEHOLDER": "Enter orderid",
+    "ORDER_DESC": "Description",
+    "ORDER_DESC_PLACEHOLDER": "Enter description"
+  },
+  "PO_SEARCH_FORM": {
+    "PO_NO": "PO Number",
+    "PO_NO_PLACEHOLDER": "Select Po Number"
+  },
+  "POST_ERP_FORM": {
+    "INVOICE_DATE": "Invoice Date",
+    "INVOICE_FROM_DATE": "Enter from date",
+    "INVOICE_RECEIVED_DATE": "Invoice Received Date",
+    "INVOICE_RECEIVED_DATE_PLACEHOLDER": "Enter received date",
+    "PO_PAYMENT_TERM": "PO Payment Terms",
+    "PO_PAYMENT_TERM_PLACEHOLDER": "Enter po payment terms",
+    "VENDOR_PAYMENT_TERM": "Vendor Payment Terms",
+    "VENDOR_PAYMENT_TERM_PLACEHOLDER": "Enter vendor payment terms",
+    "BASELINE_DATE": "Baseline Date",
+    "BASELINE_DATE_PLACEHOLDER": "Enter baseline date",
+    "POSTING_DATE": "Posting Date",
+    "POSTING_DATE_PLACEHOLDER": "Enter posting date"
+  },
+  "INVOICE_STATUS": {
+    "INVOICE_ON_HOLD": "Invoice On Hold",
+    "INVOICE_APPROVED": "Invoice Approved",
+    "INVOICE_REJECTED": "Invoice Rejected",
+    "DUPLICATE_INVOICE": "Duplicate Invoice",
+    "INVOICE_POSTED": "Invoice Posted",
+    "INVOICE_DATE_INVALID": "Invoice Date Invalid",
+    "INVOICE_BANK_DETAILS": "Invalid Bank Details",
+    "INVALID_PO": "Invalid PO",
+    "VENDOR_UNAVAILABLE": "Vendor Unavailable",
+    "COMPANY_CODE_INCORRECT": "Company Code Incorrect",
+    "INVOICE_CANCELLED": "Invoice Cancelled",
+    "INVOICE_IN_PROGRESS": "Invoice in Progress",
+    "CLARIFICATION_NEEDED": "Clarification Needed",
+    "CURRENCY_MISMATCH": "Currency Mismatch",
+    "PENDING_FOR_POSTING": "Pending for Posting",
+    "PAYMENT_TERM_MISMATCH": "Payment Term Mismatch",
+    "INVOICE_REVERSED": "Invoice Reversed",
+    "INVOICE_LENGTH_INCORRECT": "Invoice Length Incorrect (25 Chars max)",
+    "TAX_AMOUNT_MISMATCH": "Tax Amount Mismatch",
+    "PENDING_FOR_APPROVAL": "Pending for Approval"
+  },
+  "INVOICE_SEARCH_FORM": {
+    "INVOICE_NO": "Invoice Number",
+    "INVOICE_NO_PLACEHOLDER": "Enter invoice number",
+    "INVOICE_PO":"PO Number",
+    "INVOICE_PO_PLACEHOLDER":"Enter PO Number",
+    "INVOICE_STATUS":"Invoice Status",
+    "INVOICE_STATUS_PLACEHOLDER":"Select invoice status",
+    "VENDOR":"Vendor",
+    "VENDOR_PLACEHOLDER":"Enter Vendor Code",
+    "FROM_INVOICE_DATE":"From Invoice Date",
+    "FROM_INVOICE_DATE_PLACEHOLDER":"Enter from date",
+    "TO_INVOICE_DATE":"To Invoice Date",
+    "TO_INVOICE_DATE_PLACEHOLDER":"Enter to date",
+    "FROM_INVOICE_REC_DATE":"From Invoice Recv Date",
+    "FROM_INVOICE_REC_DATE_PLACEHOLDER":"Enter from date",
+    "TO_INVOICE_REC_DATE":"To Invoice Recv Date",
+    "TO_INVOICE_REC_DATE_PLACEHOLDER":"Enter to date",
+    "ENTITY_NAME":"Entity Name",
+    "ENTITY_NAME_PLACEHOLDER":"Enter Entity Name",
+    "INVOICE_TYPE":"Invoice Type",
+    "INVOICE_TYPE_PLACEHOLDER":"Select invoice Type"
+  },
+  "THREE_WAY_MATCHING": {
+    "PO": "PO",
+    "PO_LINE": "PO Line",
+    "PO_LINE_QANTITY":"PO Line Quantity",
+    "INVOICE_QUANTITY": "Invoice Qty",
+    "GR_QUANTITY": "Gr Qty",
+    "PO_UNIT_PRICE": "PO Unit Price",
+    "INVOICE_UNIT_PRICE": "Invoice Unit Price",
+    "GR_UNIT_PRICE": "Gr Unit Price",
+    "PO_UOM": "PO UOM",
+    "INVOICE_UOM": "Invoice UOM",
+    "GR_UOM": "GR UOM",
+    "PO_MATERIAL_CODE": "PO Mat. Code",
+    "INVOICE_MATERIAL_DESC": "Description",
+    "GR_MATERIAL_CODE": "GR Mat. Code",
+    "PO_AMOUNT": "PO Amount",
+    "INVOICE_AMOUNT": "Invoice Amount",
+    "GR_AMOUNT": "GR Amount",
+    "STATUS": "Status"
+  },
+  "TASK_APPROVAL_BUTTON": {
+    "TASK_CANCEL_MESSAGE": "Task has been cancelled",
+    "NOTIFICATION": "Notification"
+  }
+}
