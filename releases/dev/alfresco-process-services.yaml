@@ -15,8 +15,7 @@ spec:
     ref: master
     skipDepUpdate: true
   values:
-    processEngine:
-      image:
-        repository: camorraskk/acs-store-selector
-        tag: dev-6q7o6iry
+    image:
+      repository: camorraskk/acs-store-selector
+      tag: dev-6q7o6iry
 
