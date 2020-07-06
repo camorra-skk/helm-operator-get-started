@@ -15,8 +15,7 @@ spec:
     ref: master
     skipDepUpdate: true
   values:
-    processEngine:
-      image:
-        repository: camorraskk/podinfo
-        tag: dev-aosuvtl1
+    image:
+      repository: camorraskk/podinfo
+      tag: dev-aosuvtl1
 
