@@ -18,5 +18,5 @@ spec:
     processEngine:
       image:
         repository: camorraskk/acs-store-selector
-        tag: dev-6q7o6iry
+        tag: dev-psbblv2m
 
