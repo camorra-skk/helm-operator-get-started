@@ -1,1 +1,0 @@
-The alfresco-volume-claim is ready to use.
