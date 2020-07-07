@@ -1,0 +1,34 @@
+{{- if .Values.ingress.enabled }}
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: {{ template "aps.fullname" . }}-apw
+  annotations:
+    kubernetes.io/ingress.class: "nginx"
+    nginx.ingress.kubernetes.io/rewrite-target: "/$1"
+  {{- if .Values.processWorkspace.ingress.corsAllowedHeaders }}
+    nginx.ingress.kubernetes.io/cors-allow-headers: "{{ .Values.processWorkspace.ingress.corsAllowedHeaders }}"
+  {{- end }}
+  {{- if .Values.processWorkspace.ingress.sslRedirect }}
+    ingress.kubernetes.io/ssl-redirect: "{{ .Values.processWorkspace.ingress.sslRedirect }}"
+  {{- end }}
+  {{- if .Values.processWorkspace.ingress.enableCors }}
+    nginx.ingress.kubernetes.io/enable-cors: "{{ .Values.processWorkspace.ingress.enableCors }}"
+  {{- end }}
+  {{- if .Values.processWorkspace.ingress.maxUploadSize }}
+    nginx.ingress.kubernetes.io/proxy-body-size: "{{ .Values.processWorkspace.ingress.maxUploadSize }}"
+  {{- end }}
+spec:
+  rules:
+    {{- if .Values.processWorkspace.ingress.hostName }}
+    - host: {{ tpl .Values.processWorkspace.ingress.hostName $ }}
+      http:
+    {{- else }}
+    - http:
+    {{- end }}
+        paths:
+        - path: {{ .Values.processWorkspace.ingress.path }}
+          backend:
+            serviceName: {{ template "aps.fullname" . }}-apw
+            servicePort: {{ .Values.processWorkspace.service.externalPort }}
+{{- end }}

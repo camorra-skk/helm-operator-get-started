@@ -1,0 +1,6 @@
+Alfresco Process Services Activiti App: {{ .Values.ingress.protocol | default "https" }}://{{ .Values.processEngine.ingress.hostName | default .Values.ingress.hostName  }}{{ .Values.processEngine.ingress.path | default "/" }}
+
+Alfresco Process Services Admin App: {{ .Values.ingress.protocol | default "https" }}://{{ .Values.adminApp.ingress.hostName | default .Values.ingress.hostName  }}{{ .Values.adminApp.ingress.path | default "/" }}
+
+Alfresco Process Workspace App: {{ .Values.ingress.protocol | default "https" }}://{{ .Values.processWorkspace.ingress.hostName | default .Values.ingress.hostName  }}{{.Values.processWorkspace.ingress.path | default "/" }}
+

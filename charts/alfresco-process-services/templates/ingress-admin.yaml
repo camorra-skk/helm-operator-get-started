@@ -1,0 +1,25 @@
+{{- if .Values.ingress.enabled }}
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: {{ template "aps.fullname" . }}-admin
+  annotations:
+    kubernetes.io/ingress.class: "nginx"
+    ingress.kubernetes.io/ssl-redirect: "false"
+    {{- if .Values.adminApp.ingress.maxUploadSize }}
+    nginx.ingress.kubernetes.io/proxy-body-size: {{ .Values.adminApp.ingress.maxUploadSize }}
+    {{end}}
+spec:
+  rules:
+    {{- if .Values.adminApp.ingress.hostName }}
+    - host: {{ tpl .Values.adminApp.ingress.hostName $ }}
+      http:
+    {{- else }}
+    - http:
+    {{- end }}
+        paths:
+        - path: {{ tpl .Values.adminApp.ingress.path . }}
+          backend:
+            serviceName: {{ template "aps.fullname" . }}-admin
+            servicePort: {{ .Values.adminApp.service.externalPort }}
+{{- end }}

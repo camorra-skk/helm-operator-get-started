@@ -1,0 +1,12 @@
+dependencies:
+- name: activemq
+  repository: https://kubernetes-charts.alfresco.com/stable
+  version: 1.1.1
+- name: alfresco-identity-service
+  repository: https://kubernetes-charts.alfresco.com/stable
+  version: 1.1.0
+- name: nginx-ingress
+  repository: https://kubernetes-charts.storage.googleapis.com/
+  version: 0.14.0
+digest: sha256:22244f67372e8411bd2a064ec2345a948c88dac70ff053b7decab9ac61b701c5
+generated: 2019-08-19T10:57:01.812931278Z
