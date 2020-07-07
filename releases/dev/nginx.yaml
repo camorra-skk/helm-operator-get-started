@@ -17,5 +17,5 @@ spec:
   values:
     image:
       repository: camorraskk/podinfo
-      tag: dev-30kxvpzl
+      tag: dev-bk338o0l
 
