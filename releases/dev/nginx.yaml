@@ -17,5 +17,5 @@ spec:
   values:
     image:
       repository: camorraskk/podinfo
-      tag: dev-ymuemc4t
+      tag: dev-pvvp6zwe
 
