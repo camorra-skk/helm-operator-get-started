@@ -7,10 +7,11 @@ ingress:
 processEngine:
   replicacount: 1
   image:
-    repository: camorraskk/acs-store-selector
-    tag: default-peojtefx
+    repository: docker.pkg.github.com/muraai/accounts-payable/accounts-payable
+    tag: 0.0.1-alpha-50
     pullPolicy: IfNotPresent
     internalPort: 8080
+  imagePullSecrets: github-registry-secret
   service:
     name: aps
     type: ClusterIP

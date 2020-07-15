@@ -17,6 +17,6 @@ spec:
   values:
     processEngine:
       image:
-        repository: camorraskk/acs-store-selector
-        tag: dev-jjhptjhf
+        repository: docker.pkg.github.com/muraai/accounts-payable/accounts-payable
+        tag: 0.0.1-alpha-50
 
