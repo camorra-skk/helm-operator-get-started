@@ -17,6 +17,6 @@ spec:
   values:
     processEngine:
       image:
-        repository: docker.pkg.github.com/muraai/accounts-payable/accounts-payable
+        repository: docker.pkg.github.com/v2/muraai/accounts-payable/accounts-payable
         tag: 0.0.1-alpha-50
 
