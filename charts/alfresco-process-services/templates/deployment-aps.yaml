@@ -18,7 +18,7 @@ spec:
         release: {{ .Release.Name }}
     spec:
       imagePullSecrets:
-        - name: {{ .Values.registryPullSecrets }}
+        - name: {{ .Values.processEngine.imagePullSecrets }}
       containers:
         - name: {{ .Chart.Name }}
           image: {{ .Values.processEngine.image.repository }}:{{ .Values.processEngine.image.tag }}
